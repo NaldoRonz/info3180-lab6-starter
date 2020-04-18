@@ -5,3 +5,37 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.article_image{
+	height: 250px;
+	width: 250px;
+}
+
+.grid-container{
+	padding-top: 25px;
+	display:inline-grid;
+	grid-template-columns: 450px 450px 450px;
+	grid-gap: 50px;
+}
+
+.grid-item{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 400px;
+	width: 400px;
+	border-top: solid;
+	border-width: 5px;
+	border-color: #FFA500;
+	box-shadow: 3px 3px 3px 3px #DCDCDC;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	font-size: 12.5px;
+}
